@@ -1,0 +1,288 @@
+@media screen and (max-width: 481px)  {
+    body{
+        width: 390px;
+    }
+    /*banner*/
+   .banner {
+        width: 390px;
+    }
+
+    .banner img {
+        width: 380px;
+        height: 490px;
+    }
+
+    .title {
+        margin-left: 0%;
+        width: 240px;
+    }
+
+    /*nav-bar*/
+    #nav-bar {
+        margin-top: 400px;
+    
+    }
+    
+
+    #nav-bar .container {
+        display: grid;
+        grid-template-columns : repeat(1,1fr);
+        width: 150px;
+        height: 10px;
+        margin-top: -80%;
+        margin-left: 20px;
+        
+    }
+
+    .title2 {
+        height: 0;
+        width: 0;
+    }
+
+    #nav-bar .container a {
+        height: 0;
+        border-color: white;
+        width: 160px;
+    }
+
+    .mobile {
+        margin-left: -25px;
+    }
+    
+    .mobile-cer {
+        margin-left: 10px;
+    }
+
+    .mobile-project{
+        margin-left: -30px;
+    }
+
+    /*About*/
+    #about .container {
+        display: grid;
+        grid-template-columns: 1fr;
+        width: 148px;
+    }
+
+    #item2 {
+        max-width: 380px;
+    }
+
+    .section-title2 {
+        margin-left: -30px;
+    }
+    .input {
+        margin-left: 0;
+    }
+
+    #femail  {
+        margin-left: 0px;
+    }
+
+    #msg {
+        margin-left: 0px;
+    }
+
+    .submit {
+        margin-left: -110px;
+    }
+
+    /*JobInfor*/
+
+    #job-info {
+        display: none;
+    }
+
+    #job-info-mobile {
+        display: block;
+        max-width: 380px;
+        margin-top: 100px;
+        height: 3800px;
+    }
+
+    .div {
+        max-width: 380px;
+    }
+    #job-info-mobile .container .div {
+        border:1px solid gainsboro;
+        margin-top: 20px;
+    }
+
+    .icon {
+        visibility: hidden;
+    }
+    
+    .SubDiv {
+        display: grid;
+        grid-template-columns: 4fr 1fr;
+        margin-left: 40px;
+    }
+    
+    .SubDiv2 {
+        margin-left: 35px;
+    }
+    
+    .timeline {
+        display: flex;
+        margin-left: 20px;
+        font-style: italic;
+        margin-top: -5px;
+        font-size: small;
+        color: grey;
+    }
+    
+    #current {
+        border-radius: 5px;
+        border: 2px solid blue;
+        background-color: blue;
+        color: white;
+    }
+    
+    .content {
+        margin-left: 20px;
+        font-size: small;
+        color: grey;   
+    }
+    
+    .fav {
+        
+        color: blue;
+        height: 55px;
+        width: 55px;
+        border-radius: 50%;
+        border: 2px solid blue;
+    }
+    
+    .Icon {
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr 0.25fr 0.20fr;
+        margin-left: 40px;
+    
+    }
+    
+    .fav h1{
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    
+    .titlefavou {
+        display: grid;
+        grid-template-columns: 0.25fr 0.25fr 0.25fr 0.20fr;
+        margin-left: 18px;
+        text-align: center;
+        color: grey;
+    }
+    
+    /* EngLish and Skill */
+    .evaluation{
+        
+        display: grid;
+        grid-template-rows: 1fr 1fr  1fr 1fr;
+        row-gap: 20px;
+        margin-left: 40px;
+        color: grey;
+        
+    }
+    
+    /*Line of Evaluation */
+    
+    .inline {
+        background: gray;
+        display: inline-block;
+        height: 2px;
+        margin-right: 10px;
+        width: 45px;
+        
+    }
+    
+    .Inlines {
+        margin-top: -20px;
+    }
+    
+ 
+
+    /*certificate*/
+    #certificate {
+        margin-top: -130px;
+    }
+
+    
+
+    #certificate .container{
+        max-width: 380px;
+        margin-left: 10px;
+        margin-top: 90px;
+    }
+
+    .detail {
+        max-width: 350px;
+        height: 500px;
+    }
+    /*Turn Of Column2 of tablet and laptop*/
+    .column2 {
+        display: none;
+    }
+
+    .subcolumn2 {
+        width: 160px;
+    }
+
+    #cell00 {
+        border-right-color: white
+    }
+
+
+
+    .row2 {
+        margin-top: -30px;
+        border-bottom-style: solid;
+        border-bottom-color: #d6c08d;
+    }
+
+    .row3 {
+        display: block;
+        background: #f7f7f7;
+        margin-left: -10px;
+        margin-right: 0px;
+        
+    }
+
+    /*project*/
+
+    #project {
+        margin-top: 100px;
+        margin-left: 10px;
+    }
+
+    #project .container {
+       max-width: 380px;
+       height: 1590px;
+    }
+
+    .colProject {
+        display: list-item;
+    }
+
+    #img-project1,#img-project2,#img-project3 {
+        width: 390px;
+        height: 645px;
+    }
+
+
+    /*footer*/
+
+    #footer {
+        margin-top: 1500px;
+    }
+
+   
+
+    #footer .container {
+        width: 380px;
+        margin-left: 80px;
+        padding-top: 30px;
+    }
+    
+    
+
+}

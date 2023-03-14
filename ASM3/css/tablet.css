@@ -1,0 +1,171 @@
+/*{
+   margin:10px;
+}*/
+
+@media screen and (max-width: 961px)  {
+   body {
+     width: 961px;
+   }
+
+   /*banner*/
+   .banner{
+        width: 720px;
+   }
+
+   .banner img {
+        width: 850px;
+   }
+
+   .title {
+        margin-top: 70px;
+        margin-left: 55px;
+   }
+
+   /*nav-bar*/
+   #nav-bar .container{
+       width: 700px;
+       height: 114px;
+       margin-left: 60px;
+   }
+
+   #nav-bar a{
+    margin-top: -10px;
+    height: 80px; 
+    padding-top: 65px;
+    
+  }
+
+  .namepos {
+    visibility :hidden;
+  }
+   
+  /*About*/
+
+  #about {
+     margin-top: 20px;
+  }
+
+  #about .container {
+    width: 780px;
+    margin-left: 5px;
+  }
+
+  #item2 {
+    width: 480px;
+    height: 400px;
+  }
+
+  input[type=submit] {
+    width: 24%;
+  }
+  /*JobInfo */ 
+
+  #job-info {
+    width: 800px;
+    height: 2000px;
+  }
+
+  #job-info .container{
+      width: 750px;
+      height: 1500px;
+      margin-left: 70px;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: 500px 500px 250px;
+    
+  }
+
+  #experience {
+    grid-row: 1/2;
+  }
+
+  #operation {
+    grid-row: 1 / span 1;
+    grid-column: 2 / span 1;
+  }
+
+  #education {
+    grid-row: 2 / span 1;
+    grid-column: 2 / span 1;
+    font-size: x-small;
+    height: max-content;
+  
+  }
+
+  #edu {
+    font-size: x-large;
+  }
+
+  #viewmoreedu {
+      font-size: medium;
+  }
+
+  #favourite {
+    grid-row: 3/ span 1 ;
+    grid-column: 2 / span 1;
+    height: 750px;
+    
+  }
+
+  #skills {
+    grid-row: 2/ span 2 ;
+    grid-column: 1 / span 1;
+  }
+
+  #language {
+    height: 550px;
+  }
+
+  /* Certification */
+
+
+
+  #certificate .container {
+    margin-left: 80px;
+    width: max-content;
+ 
+  }
+
+  .section-title {
+    width: max-content;
+  }
+
+  .detail {
+    width: 790px;
+    
+  }
+
+  .row1 {
+     margin-top: -10px;
+  }
+
+  /*Project*/
+  #project .container {
+      width: 750px;
+      margin-left: -10px;
+  }
+
+  .project img{
+      width: 200px;
+  }
+
+  /*footer*/
+  #footer .container {
+    max-width: 900px;
+    margin-left: 340px;
+  }
+
+  /*Turn OF Mobile*/
+  #job-info-mobile {
+    display: none;
+  }
+
+  .row3 {
+    display: none;
+  }
+
+}
+
+
+
+

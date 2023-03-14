@@ -1,0 +1,638 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./css/laptop.css">
+	<link rel="stylesheet" href="./css/tablet.css">
+	<link rel="stylesheet" href="./css/mobile.css">
+	<link rel="stylesheet" href="./css/font.css">
+	<script src="./js/Js.js"></script>
+	
+	<title>Assignment 03</title>
+
+</head>
+<body onload="OnPageLoading()">
+	
+	<!--Banner  -->
+	<div class="banner">
+		<img src="./images/banner.jpg" alt="banner">
+		<div class="title">
+			<h1>Âu Hồng Ân</h1>
+			<p >Java Developer</p>
+		</div>
+	</div>
+
+	<!--Ending Banner  -->
+
+
+	<!--Navbar  -->
+	
+	<section id="nav-bar">
+		<nav class="container">
+			<a id="info"><i class="icon-user"></i>Thông tin</a>
+			<a><i class="icon-doc-text-inv mobile"></i>Lý lịch</a>
+			<div  class="title2">
+				<h2 class="namepos">Âu Hồng Ân</h2>
+				<p class="namepos">Java Developer</p>
+			</div>
+			<a><i class="icon-mail-alt mobile-cer"></i>Chứng chỉ</a>
+			<a> <i class="icon-star-1 mobile-project"></i>Dự Án</a>
+		</nav> 
+	</section>
+
+	<!--Ending Navbar  -->
+
+	<!--About  -->
+	<section id="about" class="bg-grey">
+		<div class="container">
+			<div id="item1">
+				<div id="target">
+					<h1 class="section-title">Mục tiêu nghề nghiệp</h1>
+					<p style="padding-top: 20px">
+						Là một sinh viên đã hoàn thành chương trình chứng chỉ Doanh
+						Nghiệp của FUNiX. Em mong muốn mình sẽ được làm việc với vị
+						trí <b>Backend Developer</b>, có thể vận dụng những kiến
+						thức đã được trau dồi và không ngừng học hỏi để phát triển
+						bản thân, cũng như hoàn thành tốt nhất công việc được giao.
+					</p>
+				</div>
+			</div>
+			<div id="item2">
+				<div id="personal-info" style="margin-top: 20px">
+					<h1 class="section-title2">Thông tin cá nhân</h1>
+					<div class="input">
+						<input type="text" id="femail"  placeholder="Enter email">
+						<p id="msg">Hãy nhập email xác thực</p>
+						<input class="submit" type="submit" value="Submit" onclick="InputEmail()">
+					</div>
+				
+					<div class="mt-40 info">
+						<p><span>Giới tính</span> : Nam</p>
+						<p><span>Ngày sinh</span> : 19/05/1989</p>
+						<p><span>Điện thoại</span> : (+84) 912398xxx</p>
+						<p><span>Email</span> : sinhvien@funix.edu.vn</p>
+						<p><span>Địa chỉ</span> : Quận 6, Sài Gòn</p>
+						<p><span>Website</span> : https://abc.tech</p>
+					</div>
+					
+					<div class="icon">
+						<a class="icon-twitter"></a>
+						<a class="icon-facebook"></a>
+						<a class="icon-google"></a>
+						<a class="icon-linkedin"></a>
+					</div>
+					
+				</div>
+			</div>
+		
+			
+			
+		</div>
+	</section>
+
+	<!--Ending About  -->
+
+	<!--JobInfo  -->
+
+	<section id="job-info">
+		<div class="container">
+			<div id="experience" class="div">
+				<div class="SubDiv">
+					<h1>Kinh nghiệm</h1>
+					<h1 class="ic-toolbox"></h1>
+					<p class="view">Viewmore</p>
+					
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>Java Backend Developer Công Ty X</label>
+					<div class="timeline">
+						<p>5/2022 - </p>
+						<p id="current">Hiện tại</p>
+					</div>
+					<div class="content">
+						<p>- Xây dựng, phát triển Website trên thiết kế yêu cầu đã có</p>
+						<p>- Sử dụng Mysql, SqlServer, và truy vấn SQL</p>
+						<p>- Dùng ngôn ngữ lập trình Java</p>
+					</div>
+					
+					<br>
+					
+					<input type="radio" checked>
+					<label>.Net Backend Developer Công Ty Y</label>
+					<div class="timeline">
+						<p>6/2021-4/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Xây dựng, phát triển Website trên thiết kế yêu cầu đã có</p>
+						<p>- Sử dụng Mysql, SqlServer, và truy vấn SQL, C#</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id ="education" class="div">
+				<div class="SubDiv">
+					<h1 id="edu">Học vấn</h1>
+					<h1 class="ic-pencil"></h1>	
+					<p id="viewmoreedu"class="view">Viewmore</p>
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>Funix</label>
+					<div class="timeline">
+						<p>6/2021-5/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Chứng chỉ doanh nghiệp Java Developer</p>
+						<p>- GPA: 8/10</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Cử Nhân Đại Học Khoa Học Tự Nhiên</label>
+					<div class="timeline">
+						<p>12/2018-7/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Chuyên ngành IT</p>
+						<p>- GPA 7/10</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Cử Nhân UEH</label>
+					<div class="timeline">
+						<p>12/2016-7/2018 </p>
+					</div>
+					<div class="content">
+						<p>- Kế Toán Doanh Nghiệp</p>
+						<p>- GPA 6/10</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id ="operation" class="div" >
+				<div class="SubDiv">
+					<h1>Hoạt động</h1>
+					<h1 class="ic-toolbox"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>FPT Edu Hackathon 2019</label>
+					<div class="timeline">
+						<p>3/2019-5/2019</p>
+					</div>
+					<div class="content">
+						<p>- Giải 3 bảng A</p>
+						<p>- Đề tài: Trang web phân loại rác</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Câu lạc bộ Z</label>
+					<div class="timeline">
+						<p>8/2016-8/2017 </p>
+					</div>
+					<div class="content">
+						<p>- Trưởng ban chuyên môn</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id="favourite" class="div">
+				<div class="SubDiv">
+					<h1>Sở thích</h1>
+					<h1 class="ic-telescope"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="Icon">
+					<div class="fav">
+						<h1 class="ic-megaphone"></h1>
+						
+					</div class="fav">
+					<div class="fav">
+						<h1 class="ic-strategy" style="margin-left: 18px"></h1>
+					</div>
+					<div class="fav">
+						<h1 class="ic-hotairballoon" style="margin-left: 15px"></h1>
+					</div>
+					
+					<div class="fav">
+						<h1 class="ic-basket"></h1>
+					</div>
+					
+				</div>
+				<div id="ic" class="titlefavou" >
+				
+					<p>Âm Nhạc</p>
+					<p>Chơi Game</p>
+					<p>Du Lịch</p>
+					<p>Nấu Ăn</p>
+				</div>
+				
+				
+			
+			</div>
+			<div id="language" class="div">
+				<div class="SubDiv">
+					<h1>Ngôn ngữ</h1>
+					<h1 class="ic-mic"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="evaluation">
+					<div>
+						<p>Tiếng Anh - IELTS 7.0</p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>Tiếng Nhật - JLPT N4</p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+							<p class="inline"></p>
+						</div>
+					</div>
+		
+				</div>
+				
+			</div>
+			<div id="skills" class="div">
+				<div class="SubDiv">
+					<h1>Kỹ năng</h1>
+					<h1 class="ic-tools-2"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="evaluation">
+					<div>
+						<p>DSA/GT/DB: Intermediate</p>
+						<div class="Inlines">
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>Java: Intermediate </p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>C#: Intermediate </p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--Mobile -->
+	<section id="job-info-mobile">
+		<div class="container">
+			<div id="experience" class="div">
+				<div class="SubDiv">
+					<h1>Kinh nghiệm</h1>
+					<h1 class="ic-toolbox"></h1>
+					<p class="view">Viewmore</p>
+					
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>Java Backend Developer Công Ty X</label>
+					<div class="timeline">
+						<p>5/2022 - </p>
+						<p id="current">Hiện tại</p>
+					</div>
+					<div class="content">
+						<p>- Xây dựng, phát triển Website trên thiết kế yêu cầu đã có</p>
+						<p>- Sử dụng Mysql, SqlServer, và truy vấn SQL</p>
+						<p>- Dùng ngôn ngữ lập trình Java</p>
+					</div>
+					
+					<br>
+					
+					<input type="radio" checked>
+					<label>.Net Backend Developer Công Ty Y</label>
+					<div class="timeline">
+						<p>6/2021-4/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Xây dựng, phát triển Website trên thiết kế yêu cầu đã có</p>
+						<p>- Sử dụng Mysql, SqlServer, và truy vấn SQL, C#</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id ="education" class="div">
+				<div class="SubDiv">
+					<h1 id="edu">Học vấn</h1>
+					<h1 class="ic-pencil"></h1>	
+					<p id="viewmoreedu"class="view">Viewmore</p>
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>Funix</label>
+					<div class="timeline">
+						<p>6/2021-5/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Chứng chỉ doanh nghiệp Java Developer</p>
+						<p>- GPA: 8/10</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Cử Nhân Đại Học Khoa Học Tự Nhiên</label>
+					<div class="timeline">
+						<p>12/2018-7/2022 </p>
+					</div>
+					<div class="content">
+						<p>- Chuyên ngành IT</p>
+						<p>- GPA 7/10</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Cử Nhân UEH</label>
+					<div class="timeline">
+						<p>12/2016-7/2018 </p>
+					</div>
+					<div class="content">
+						<p>- Kế Toán Doanh Nghiệp</p>
+						<p>- GPA 6/10</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id ="operation" class="div" >
+				<div class="SubDiv">
+					<h1>Hoạt động</h1>
+					<h1 class="ic-toolbox"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+
+				<div class="SubDiv2">
+					<input type="radio" checked>
+					<label>FPT Edu Hackathon 2019</label>
+					<div class="timeline">
+						<p>3/2019-5/2019</p>
+					</div>
+					<div class="content">
+						<p>- Giải 3 bảng A</p>
+						<p>- Đề tài: Trang web phân loại rác</p>
+					</div>
+					<br>
+					<input type="radio" checked>
+					<label>Câu lạc bộ Z</label>
+					<div class="timeline">
+						<p>8/2016-8/2017 </p>
+					</div>
+					<div class="content">
+						<p>- Trưởng ban chuyên môn</p>
+					</div>
+				</div>
+				
+			</div>
+			<div id="favourite" class="div">
+				<div class="SubDiv">
+					<h1>Sở thích</h1>
+					<h1 class="ic-telescope"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="Icon">
+					<div class="fav">
+						<h1 class="ic-megaphone"></h1>
+						
+					</div class="fav">
+					<div class="fav">
+						<h1 class="ic-strategy" style="margin-left: 18px"></h1>
+					</div>
+					<div class="fav">
+						<h1 class="ic-hotairballoon" style="margin-left: 15px"></h1>
+					</div>
+					
+					<div class="fav">
+						<h1 class="ic-basket"></h1>
+					</div>
+					
+				</div>
+				<div id="ic" class="titlefavou" >
+				
+					<p>Âm Nhạc</p>
+					<p>Chơi Game</p>
+					<p>Du Lịch</p>
+					<p>Nấu Ăn</p>
+				</div>
+				
+				
+			
+			</div>
+			<div id="language" class="div">
+				<div class="SubDiv">
+					<h1>Ngôn ngữ</h1>
+					<h1 class="ic-mic"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="evaluation">
+					<div>
+						<p>Tiếng Anh - IELTS 7.0</p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>Tiếng Nhật - JLPT N4</p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+							<p class="inline"></p>
+						</div>
+					</div>
+		
+				</div>
+				
+			</div>
+			<div id="skills" class="div">
+				<div class="SubDiv">
+					<h1>Kỹ năng</h1>
+					<h1 class="ic-tools-2"></h1>
+					<p class="view">Viewmore</p>
+				</div>
+				<div class="evaluation">
+					<div>
+						<p>DSA/GT/DB: Intermediate</p>
+						<div class="Inlines">
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>Java: Intermediate </p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+						<p>C#: Intermediate </p>
+						<div class="Inlines">
+						 	<p class="inline" style="background-color: blue"></p>
+							<p class="inline" style="background-color: blue"></p>
+							<p class="inline"></p>
+						</div>
+				
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</section>
+	<!--Mobile -->
+	<!--Ending JobInfo  -->
+
+	<!--certificate  -->
+	<section id="certificate" class="bg-grey">
+		<div class="container">
+			<h1 class="section-title">
+				Chứng chỉ - Giải thưởng
+			</h1>
+			<div class="detail">
+				<div class="row1">
+					<div class="column">
+						<div class="column1" id="cell00">
+							<div class="subcolumn">
+								<div class="subcolumn1" >
+									<img src="./images/Cert_PRF.png" width="200" height="100">
+								</div>
+								<div class="subcolumn2">
+									<div class="namecer">
+										<p>Chứng Chỉ Lập trình Web - Funix</p>
+									</div>
+									<div class="contentcer">
+										<p>- Chứng chỉ thuộc chương trình CCDN</p>
+										<p>- GPA: 8.6</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						<div class="column2">
+							<div class="subcolumn">
+								<div class="subcolumn1">
+									<img src="./images/Cert_WEB.png" width="200" height="100">
+								</div>
+								<div class="subcolumn2">
+									<div class="namecer">
+										<p>Chứng Chỉ Xây Dựng Website Đầu Tiên</p>
+									</div>
+									<div class="contentcer">
+										<p>- Chứng chỉ thuộc chương trình CCDN</p>
+										<p>- GPA: 8.9</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+					</div>
+			
+				</div>
+				<div class="row2">
+					<div class="column">
+						<div class="column1" style="margin-top: 45px;">
+							<div class="subcolumn">
+								<div class="subcolumn1" >
+									<img src="./images/Cert_DBI.png" width="200" height="100">
+								</div>
+								<div class="subcolumn2">
+									<div class="namecer">
+										<p>Chứng Chỉ Thiết Kế Database - Funix</p>
+									</div>
+									<div class="contentcer">
+										<p>- Chứng chỉ thuộc chương trình CCDN</p>
+										<p>- GPA: 8.0</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+				<div class="row3">
+					<div class="column">
+						<div class="column1" style="margin-top: 45px;">
+							<div class="subcolumn">
+								<div class="subcolumn1" >
+									<img src="./images/Cert_DBI.png" width="200" height="100">
+								</div>
+								<div class="subcolumn2">
+									<div class="namecer">
+										<p>Chứng Chỉ Xây Dựng Website Đầu Tiên</p>
+									</div>
+									<div class="contentcer">
+										<p>- Chứng chỉ thuộc chương trình CCDN</p>
+										<p>- GPA: 8.9</p>
+									</div>
+									
+								</div>
+							</div>
+						</div>
+						
+					</div>
+					
+				</div>
+			</div>
+
+		</div>
+	</section>
+	<!--Ending certificate  -->
+
+	<!--Project  -->
+	<section id="project">
+		<div class="container">
+			<h1 class="section-title">
+				Dự án
+			</h1>
+			<div class="colProject">
+				<div class="project">
+					<img id="img-project1" class="img-project" src="./images/project_1.png">
+				</div>
+				<div class="project">
+					<img id="img-project2" class="img-project" src="./images/project_2.png">
+				</div>
+				<div class="project">
+					<img id="img-project3" class="img-project" src="./images/project_3.png">
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--Ending Project  -->
+
+	<!--footer-->
+	<section id="footer" class="bg-grey">
+		<div class="container">
+			<div class="foot">
+				<p class="ficon icon-facebook-circled"></p>
+				<p class="content">FaceBook</p>
+			</div>
+			<div id="f1" class="foot" >
+				<p class="ficon icon-linkedin-circled"></p>
+				<p class="content">Linkedin</p>
+			</div>
+			<div id="f2" class="foot">
+				<p class="ficon icon-github-circled"></p>
+				<p class="content">GitHub</p>
+			</div>
+			
+		</div>
+	</section>
+	<!--Ending footer-->
+</body>
+</html>
