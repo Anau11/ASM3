@@ -33,6 +33,7 @@ function Initial(){
 function InitialBtnView(){
     
     var arr = document.querySelectorAll('.view');
+
     document.querySelector(".titlefavou").style.visibility ="hidden";
     for(let i = 0; i < getdiv.length;i++){
         getdiv[i].childNodes[3].style.visibility = 'hidden';
